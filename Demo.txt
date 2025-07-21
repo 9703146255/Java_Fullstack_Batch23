@@ -1,0 +1,217 @@
+Name 		:   Mr.Thirumalesh/sir
+Experience  :   8+ Yrs(4-Companies)
+TechStack   : Html,Css,Js,React,Angular
+			  Java,Advanced(JDBC,JSP,SERVLETS)
+              Spring,SpringBoot	
+			  Mysql,Oracle,Pgsql,Mongo.
+			  AWS(EC2,S3,RDS,Lambdas,BeanStack..200+)
+			  Linux
+Role 		: Tech Lead(Mnc)
+--------------------------------------------
+Java Full stack Program
+--------------------------------------------
+ Module-1:
+		Backend Technologies:
+						Core Java,Java8
+						Advanced(JDBC,JSP,SERVLETS)
+						Spring,SpringBoot.
+						Mysql
+ Module-2:
+		FrontEnd Technologies
+						Html,
+						Css,
+						Js,
+						Bootstrap,
+						React,Angular
+ Module-3
+		Real Time Projects(E-Commerce)
+		Real Time Tools
+			Maven
+			Jira
+			GitHub
+			Kafka
+			Redis
+			Docker
+			Kubernetes
+			Jenkins
+			...15+
+
+ Module-4: AI Module
+ -------------------
+ Resume Preperation(ATS)+ 
+ Mock Interviews + 
+ Daily Notes+
+ Recoring Sessions.
+ 
+Types of companies:
+
+1) Service Based Companies:
+   It is providing the services to the customers/clients.
+   
+   Ex: Tcs,Infosys,Accenture...
+   
+2) Product Based Company:
+   Based on the market demand, 
+   Developing the products
+   and selling the products.
+   
+   Ex: Hp,Redmi,Google,Lenovo
+   
+3) Outsourcing Based companies:
+ 
+ Accenture:
+ 10Lpa
+ Tcs --> 100(1-5lpa)
+		Thiru--> 5lpa
+
+ https://htmldog.com/guides/html/
+https://www.csszengarden.com/214/page3/
+
+Language:
+---------
+		 Medium for the communications
+		
+		Human Languages:
+		----------------
+		One person wants to communicate with another person.
+		
+		Ex: Telugu,Hindi,English....
+		
+		Programming Languages:
+		----------------------
+		One person wants to communicate with the machine/computer there is having programming languagex.
+
+		Ex: Java,Python, .net.......
+		Softwares/Applications:
+		-----------------------
+		Software: Collection of programs.
+		
+		Use of software: Software are simplifieng humans life.
+
+Backend Technologies:
+						Core Java,Java8
+						Advanced(JDBC,JSP,SERVLETS)         10(insert),10(delete)
+						Spring,SpringBoot,Microservices.     1            1
+						Mysql
+	
+
+Core Java:
+-----------	
+It is programming language.
+By using java we can develop standalone applications.
+
+Standalone applications: Only one person can access at time.
+						 That person needs to download,install the software.
+						 
+						 Ex: Notepad, Calculator, Ides.
+
+Advanced(JDBC,JSP,SERVLETS):
+----------------------------
+JDBC: 
+-----
+		-> Java database connectivity
+	  	-> Jdbc is mediator between java application and any database.
+
+JSP:
+---
+		-> It is used to develop dynamic web pages.
+		
+SERVLETS:
+---------
+		-> It is used to handle request and response(input/output)
+		
+
+Monolithic application:
+-----------------------
+If we develop all the functionalities in single jar.
+
+	
+Microservices:
+--------------
+It is a design pattern.
+IF we develop all the functionalities seperatly called as Mircroservices.
+
+
+Database:
+---------
+Two types of databases in the market;
+
+1) Relational database:
+------------------------
+We are going to store in the tables.
+
+Employee table			Address Table
+---------------------  ---------
+empId,empName,empSal   addId,empAdd
+
+Mysql,Oracle,Postgres.....
+
+2)Non-Relational databases
+--------------------------
+It is used store the data into the document.
+Key value format.
+
+Ex: MongoDB,Cassanra DB...
+
+
+FrontEnd Technologies
+						Html,
+						Css,
+						Js,
+						Bootstrap,
+						React,Angular
+Html:
+----
+HTML stands for hypertext markup language.
+It is used to develop static application.
+
+EX: Wikipidia.
+
+Css: 
+----
+CSS stands for Cascading stylesheets.
+If we want appy colors for the html content(body) we can use css.
+
+
+JavaScript:
+-----------
+It is also called as scriptin language.
+It is used to provide the dynamic action.
+
+React & Angualar:
+-----------------
+React is library.
+Angualar is frame work.
+
+JAVA:
+-----
+Java is programming language.
+
+James gosling is the team lead at the time java laguage development.
+
+Java developed in the year of 1991.
+
+Java comes into the market in the year of 1996.
+
+Sunmicrosystem was developed the java language.
+
+Oracle company purchased the java language from Sunmicrosystem.
+
+Currently Oracle company maintining the java language.
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+
+					Class will be start at 8.10AM
+ 
+ 
+					
