@@ -98,6 +98,7 @@ Backend Technologies:
 Core Java:
 -----------	
 It is programming language.
+
 By using java we can develop standalone applications.
 
 Standalone applications: Only one person can access at time.
@@ -193,12 +194,752 @@ Java developed in the year of 1991.
 
 Java comes into the market in the year of 1996.
 
-Sunmicrosystem was developed the java language.
+Sun Microsystem was developed the java language.
 
-Oracle company purchased the java language from Sunmicrosystem.
+Oracle company purchased the java language from Sun microsystem.
 
 Currently Oracle company maintining the java language.
 
+Java Divisions
+---------------
+1)J2SE
+2)J2EE
+3)J2ME
+
+1)J2SE:
+-------
+Java standard edition
+It is used to develop standalone applications/desktop application.
+Standalone application:
+-----------------------
+The application which can run in one machine.
+Download the software & Install the software.
+
+Ex: Notepad,Eclipse Ide.Calculator.
+
+
+J2EE
+-----
+Java Enterpraise Edition.
+It is used to develop the web applications/ enterpraise applications.
+
+Web Application:
+----------------
+Web application nothing but every one can access at time.
+through internet.
+
+Ex: Flipkart,Amazon,Gmail.. etc
+
+
+3)J2ME:
+--------
+Java Mobile/Micro Edition.
+
+The application which can access in the mobiles called mobile applications.
+
+EX: Whatsapp,Instagram,Fb... etc.
+
+Java Features:
+--------------
+Simple:
+-------
+	Java language avoid the complex topix in the java
+	
+	EX: Pointers,Memory Management,Operator Overload..
+
+Platform Independent:
+---------------------
+    Once we develop java program, we can run on any machine(OS).
+	Jvm: Java virtual machine.
+		 JVM is used to execute the java program.
+		 JVM is used to allocate the memory for the java program execution.
+		 Once java program exection completed, it will de-allocate the memory.
+		 JVM is making java is a platform independent.
+
+Robust(Strong):
+---------------   
+		
+		1)Exceptin Handling[1...50(issue)....100][a    m      r]
+		2)Automatic memory management system.
+OOPS:
+-----
+	 In java everything we can represent objects format.
+	 
+	 Java is having re-usable funcationaliy.  
+	 1) Inheritence
+	 2) Polimorphism
+	 3) Abstraction
+	 4) Encapsulation(var + methods)
+	  
+	 1) Inheritence:
+	 ----------------
+	 -> Parent child relationship
+	 
+	 
+	 2) Polimorphism:
+	 ----------------
+	 -> One operation we can perform many ways.
+	 
+	 3) Abstraction:
+	 ----------------
+	 -> Hiding the internal details and showing required functionalities.
+	 
+	 Ex: ATM
+	 
+	 4) Encapsulation(var + methods)class
+	 --------------------------------
+	 -> Wrapping (var+ methods)class data
+	 
+Secure:
+-------
+		Compare to other languages java having more security.
+		
+		When we compile the java code 
+		
+		It will be generate the byte code.
+		
+		This byte code having default security.
+		
+Distributed:
+------------
+	    We can execute java program paralelly. 
+		No need to follow sequence order.
+		
+		.
+		.  
+		. Money Transfer
+		.
+		.
+		. Deposite
+		.
+		.
+		. Balance checking
+		
+		
+Portable(changable):
+--------------------
+		We can easily change our code to any machine(os) easily.
+
+Multithredded:
+-------------
+		We can run out java program paralally.
+		add,multiplication,substartion,division.
+
+Slogan:(WORA) Write once run any where.
+-------
+
+Java Intsalltion process:
+-------------------------
+step 1: goto any browser
+step 2: search "java 8 software free download"
+step 3: (Java SE 8 Archive Downloads (JDK 8u202 and earlier)).
+step 4: download Windows x64
+step 5: Once we click the link it will ask login page.
+step 5: Create account(We need to remember emailid,Password)
+step 6: Open Login page(emailid,Password)
+step 6: click on login(Automatically download the java sotware.)
+
+
+standalone app: jar		(java archive)
+web app: war			(web archive)
+enterpraise apps: ear	(enterpraise archive)
+
+Path:
+
+Once Installtion is completed. 
+
+Path: 	C:\Program Files\Java
+
+Till java8
+1)JDK
+2)JRE
+From java9 Owards
+1)JDK
+
+
+Once we download the java software:
+-----------------------------------
+1)JDK 
+2)JRE
+3)JVM
+
+
+1)JDK (Java development kit)
+-----------------------------
+->It is used to develop the applications.
+
+->Jdk is providing tools.
+
+->Jdk Present physically.
+
+Ex:javac,java,jdb,javadoc...54 tools.
+
+
+2)JRE(Java runtime environment):
+-------------------------------
+-> JRE stands for Java runtime environment
+
+-> It is providing platform/env to run/execute the java program.
+
+-> JRE Present physically.
+
+
+3)JVM:
+------
+
+-> jvm stands for java virtula machine. 
+
+-> Jvm is used to execute the java program. 
+
+-> Jvm is going to allocate the memory when we are running java program.
+
+-> JVM is goint to de-allocate the memory.
+
+-> JVM is making our java as platfrom independent.
+
+-> JVM is present virtually(we are not able to see)
+
+
+How many ways we can develop java application/code
+---------------------------------------------
+
+1)Text Editors [Notepad,Notepad++,sublimetext...]
+2)IDE[Eclipse Ide,STS Ide,Intellij Ide, NetBeans Ide]
+  Ide Link: https://www.eclipse.org/downloads/packages/
+
+
+Java programing structure:
+---------------------------
+Package statement [0 to 1 times]
+import statements [0 to n times]
+class             [1-class]
+variables         [0 to n times]
+methods           [0 to n times]
+
+
+Package statement:
+-----------------
+Package: collection of classes or interfaces.
+        -> package consists of combination of words
+		-> words will be seperated with . symbol
+		->package statement is available 0 to 1 times.
+
+         in.tcs
+		 in.infosys
+		 com.accenture
+		 in.cgi
+		 
+
+
+
+import statements:
+------------------
+It is used to import the classess or interfaces into our class.
+Import statements we can write 0 to n times.
+we can import user-defined packages,pre-defined packages.
+
+Ex:
+
+		
+		import in.thiruit.entity.Student;
+		import in.thiruit.repo.StudentRepo;
+
+class:
+-----
+Class is blue print/plan.
+
+How many variables.
+How many mmethods.
+
+variables:
+----------
+Variable is used to store the data.
+
+name    --> "thiru"
+isPass  --> true
+gender  --> 'M'
+salary  --> 1000.50
+marks   --> 70
+
+methods:
+--------
+Methods is used to perfom the actions.
+
+Ex: Insert the student data
+	Update the student data
+	Delete the student data
+	Get all the student data
+	Add,sub,div........
+	
+	
+Translators:
+-------------
+To translate the data from one format to another format.
+
+1)Interpreter
+2)Compilor
+3)Assembler
+
+1)Interpreter:
+------------
+It is used to translate the data line by line.
+If we use translators it will take more time.
+It will effect performance issue.
+
+2)Compilor:
+----------
+It is used to translate the entire data in single shot.
+If we use Compilor it will take less time.
+It will not effect performance issue.
+
+3)Assembler:
+------------
+It is used to convert the assembler language into machine understandable format.
+
+JVM Architecture.
+------------------
+1) Classloadersubsystem:
+2) Method Area
+3) Heap Area
+4) Java Stack
+5) PC Register
+6) Native stack
+7) Native Interface
+8) Native libraries
+9) Execution Engine(Interpreter
+
+ Classloadersubsystem:
+ ---------------------
+ It is used to load the .class files into the jvm area.
+ 
+ Method Area:
+ ------------
+Class strucure will be stored in the method area.
+
+Heap Area:
+-----------
+It is used to store the objects.
+
+Java Stack:
+----------
+It is used to store the method execution details.
+
+PC Register:
+------------
+It is used to store the next line execution details.
+
+Native stack:
+------------
+It is used to store the non-java code.
+Out jvm is developed by using c/c++.
+non-java nothing but c/c++.
+
+Native Interface:(10 books)
+-----------------
+Non-java code execution details will be stored into the native interface. 
+
+8) Native libraries:(all kinds of books)
+--------------------
+Non-java code libraries available in the native library.
+
+
+Variable:
+---------
+Varibale are used store values or data.
+		
+			marks = 80;
+			grade = 'A';
+			isPass = true;
+			name  = "hari"
+			percentage =  60.90;
+
+Whenever storing the data into the variable 
+we need to tell which kind of data  we are storing in the variable.
+
+2-steps:
+---------
+1)Declaration of variables:
+-------------------------
+int a;
+int b;
+char ch;
+
+2)intializatoin :
+----------------
+a=10;
+b=20;
+ch='#';
+
+1-step:
+-------
+Direct approach to declartion/Initialization.
+---------------------------------------------
+int a=20;
+int b=40;
+char ch='@';
+
+
+
+
+Data Type:
+---------
+It is used to tell which kind of data we are storing in the variable.
+
+int marks = 80;	   int[] marks={80,55,84,98,64,70};
+				   int[] marks=new int[]{80,55,84,98,64,70};
+char grade = 'A';   [A-Z,a-z,numbers,special character]
+boolean isPass = true;	
+String name  = "hari";
+double percentage =  60.90;	
+
+
+Data types is divided into 2-types:
+-----------------------------------
+1)primitive Data types/Pre-Defined:
+----------------------    
+     1)Integral Data type(byte,short,int,long)->0
+	 2)Decimal data type(float,double)->0.0
+	 3)Character Data type(char)->empty
+	 4)Boolean Data type(boolean)-> false
+
+2)Non-Primitive/ Referenced datatype
+------------------------
+	1)String
+	2)Array
+	3)Object
+	4)Calculator
+	5)Demo
+	
+1)Pre-Defined/primitive Data types:
+----------------------    
+     1)Integral Data type:
+	 ---------------------
+	 It is used to store the numbers.
+	 It containes positive or negative numbers.
+	        Datatype	    Size            default values
+			--------        --------		---------------
+			byte			1-byte             0
+			short           2-Bytes			   0
+			int             4-Bytes            0
+			long            8-Bytes            0L
+			
+			Note: 1-Byte = 8Bits
+			
+	 2)Decimal data type:
+	 --------------------
+	 It is used to store the decimal values.
+	 It containes positive or negative Decimal numbers.
+	 decimal:-20.30,+50.50
+			 Datatype	    Size            default values
+			--------        --------		---------------
+			1)Float 		 4-bytes           0.0
+			2)Double         8-bytes           0.0
+	 
+	 
+	 3)Character Data type:
+	 ----------------------
+	 It is used to store the character data.
+	 It containes(a-z,A-Z,0-9,special character#@&...).
+	 when we declare the character we need to mention in the single quotes
+	 The default value of character is '\u0000' or .
+	 The size of the character is 2-byte.
+	 
+			Datatype	    Size            default values
+			--------        --------		---------------
+			1)char 		   2-bytes          \u0000 OR EMPTY
+	 
+	 Note: In c-language it will take 1-byte of memory
+	 
+	 
+	4)Boolean Data type:
+	-------------------
+	It is used to store the true or false data.
+	The size of the boolean data type is 1-bit
+	
+			Datatype	    Size            default values
+			--------        --------		---------------
+			1)boolean 		1-bit           false
+	
+	Note: 1-Byte = 8bits
+	
+
+2) Referenced datatype/Non-Primitive(default->null).
+--------------------------------------
+	1)String
+	2)Array
+	3)Object
+	4)Calculator
+	
+	1)String:
+	---------
+	->String nothing but group characters.
+	->It containes(a-z,A-Z,0-9,special character).
+	-> Ex: String name="1aH$";
+	->The default value of any referenced data type is null
+	->We can create the string in 3-ways 
+			1) Literal
+			2) new keyword
+			3) converting char array into the string
+	
+		1) Literal
+		-----------
+		String name="versionIT";
+		
+		2) new keyword
+		---------------
+		String name=new String("VersionIT");
+			
+		3) converting char array into the string
+		 ---------------------------------------------
+		 char[] ch=new char[]{'a','p','p','l','e'};
+		 String name=new String(ch); -->"apple"
+	
+	2)Array:
+	--------
+	Arrays is used to store more than one value/data but sama kind of data.
+	
+	int[] a=new int[]{10,20,30,40};
+	
+	int[] a={10,20,30,40};
+	int []a={10,20,30,40};
+	int a[]={10,20,30,40};
+	
+	int[] a=new int[5];
+	
+	
+	3)Object:
+	---------
+	Object class is the super class for all the classes.
+	It contanes 11 methods
+	----------------------
+	equals
+	hashcode
+	finalize
+	wait()
+	wait(1-parameter)
+	wait(2-parameter)
+	notify
+	notifyAll
+	toString
+	clone
+	getClass
+	
+Naming Conventions/Rules
+------------------------
+Variables
+Methods
+Classes/Interfaces
+Constants
+
+A-Z
+a-z
+0-9
+_(underscore)
+$(doller symbol)
+keywords(
+Key words we are not able use as a names for all var,methods,classes,constants
+
+Variables:
+----------
+variable names start with small letter.
+starting of variable name we can use _ or $
+when we have 2 words first word first letter should be small
+remaining all the words start letter should be capital.
+		Ex: char capitalLetterHere='A';
+		    int number=10;
+			int _number=20;
+			int $number=30;
+			
+			int 1number=40;(wrong)
+			int num1ber=40;(right)
+			int number2=40;(right)
+Note : Variable names not start with numbers(0-9)
+       But we can use numbers except starting postion.
+	   
+Methods:
+--------
+Method names start with small letter.
+Method names not start with numbers(0-9)
+If we are having more than one word.
+			addFeeStructure()
+			recordPayment()
+			getDueAmount()
+			
+			
+Classes/Interfaces:
+-------------------
+Class names start with the Capital letters
+Ex: EmployeeManagement,Student,Address,Staff....etc
+Classes/Interfaces names not start with numbers(0-9)
+
+NOTE:Classes/Interfaces we are not able to use $ and _ also
+
+Constants:
+---------
+All the letters should be capital in the constans.
+If we are having two words seperated with _ symbol.
+
+
+static final int MIN_WIDTH = 4;
+static final int MAX_WIDTH = 999;
+static final int GET_THE_CPU = 1;
+
+packages:
+------------
+packages we need to write in the small letter or words
+If we are having more than one word in the package 
+we need seperate with the . symbol.
+
+in
+in.thiruit.repo;
+
+Operators:
+---------
+Operators(+) are used to perform the operations on operands(a,b)
+
+ex: a+b
+
+1)Arithematic Operators:
+2)Relational operator
+3)Logical operator
+4)Ternery Operator
+5)Assignment operator
+6)Unery Operator
+
+
+1)Arithematic Operators:
+------------------------
+The operator which is used to perform arithematic aperation.
+Addition(+)
+Substraction(-)
+Multiplication(*)
+Division(/)
+Remainder(%)
+
+2)Relational operator:
+----------------------
+One variable is relation with another variable that is called 
+Relational operator.
+
+1) equals 								( == )
+2) greatet than							( > )
+3) greatet than or equals to			( >= )
+4) Less than							( < )
+4) Less than  or equals to				( <= )
+
+3)Logical operator:
+--------------------
+1) And (10th --> 6-subjects)-pass
+2) OR 
+3) NOT
+
+1) And:
+-------
+If the all the true then only we will get result as true
+Otherwise we will get the false result.
+
+Tel			pass    pass
+Hindi       pass    pass
+English     pass    pass
+soc         pass    pass
+Sci         fail    pass
+-------------------------
+Result      fail    pass          
+
+
+2) OR :
+-------
+If one condition or more than one condition should be true
+than only we will get the result as true
+
+Tel			pass    fail
+Hindi       fail    fail
+English     fail    fail
+soc         fail    fail
+Sci         fail    fail
+-------------------------
+Result      pass    fail 
+
+Not:
+----
+!true --> false  
+!false --> true  
+
+4)Ternery Operator:
+-------------------
+if(age>=18)?true:false;
+
+5)Assignment operator(=)
+---------------------
+int a=20;
+int b=30;
+
+6)Unery Operator:
+-----------------
+Post Increment(a++)
+Pre Increate(++a)
+Post Decrement(a--)
+Pre Decrement(--a)
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+java project creation process:
+------------------------------
+Open ide 
+--> File 
+-> new  
+-> search java project(other) 
+-> next
+-> give the project name
+-> finish
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -211,7 +952,7 @@ Currently Oracle company maintining the java language.
 		
 		
 
-					Class will be start at 8.10AM
+			    Class will be start at 8.10AM
  
  
 					
